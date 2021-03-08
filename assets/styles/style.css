@@ -3,5 +3,23 @@
 }
 
 html{
+/*     background-color: var(--purple);
+ */}
+
+nav img{
+    height: 10vw;
+}
+
+nav{
+    background-color: #5f5f5f;
+}
+
+.nav-item .btn{
     background-color: var(--purple);
+}
+
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
 }
