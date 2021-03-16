@@ -12,14 +12,28 @@ nav img{
 
 nav{
     background-color: #5f5f5f;
+    margin: 0 auto;
+    color: white;
+}
+
+nav a{
+    color:white;
 }
 
 .nav-item .btn{
     background-color: var(--purple);
 }
 
-.carousel{
+.carousel-item{
     width: 50%;
     margin: 0 auto;
-    height: 50%;
+    height: auto;
 }
+
+#button{
+    background-color:#6f4d94;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
