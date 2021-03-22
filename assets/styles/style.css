@@ -25,9 +25,9 @@ nav a{
 }
 
 .carousel-item{
-    width: 50%;
+    
     margin: 0 auto;
-    height: auto;
+    height: 300px;
 }
 
 #button{
