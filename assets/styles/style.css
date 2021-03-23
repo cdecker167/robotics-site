@@ -37,3 +37,10 @@ nav a{
     border-radius: 10px;
 }
 
+main img{
+    max-width: 50%;
+}
+
+main{
+    text-align: center;
+}
