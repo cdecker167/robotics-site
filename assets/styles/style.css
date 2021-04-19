@@ -3,15 +3,17 @@
 }
 
 html{
+    text-align: center;
 /*     background-color: var(--purple);
+    
  */}
 
-nav img{
-    height: 10vw;
+nav img, footer img{
+    height: 8vw;
 }
 
-nav{
-    background-color: #5f5f5f;
+/* nav{
+    /* background-color: #5f5f5f; 
     margin: 0 auto;
     color: white;
 }
@@ -39,8 +41,9 @@ nav a{
 
 main img{
     max-width: 50%;
-}
+} */
 
 main{
     text-align: center;
+    margin: 0 auto;
 }
