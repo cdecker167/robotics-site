@@ -32,12 +32,6 @@ nav a{
     height: 300px;
 }
 
-#button{
-    background-color:#6f4d94;
-    padding: 5px;
-    color: white;
-    border-radius: 10px;
-}
 
 main img{
     max-width: 50%;
@@ -46,4 +40,10 @@ main img{
 main{
     text-align: center;
     margin: 0 auto;
+}
+#button{
+    background-color:#6f4d94;
+    padding: 5px;
+    color: white !important;
+    border-radius: 10px;
 }
