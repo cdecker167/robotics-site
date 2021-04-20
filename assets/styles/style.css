@@ -8,7 +8,7 @@ html{
     
  */}
 
-nav img, footer img{
+nav img{
     height: 8vw;
 }
 
@@ -62,12 +62,22 @@ nav{
 footer i{
     color: white;
     font-size: 3em;
+    padding: 15px;
+}
+
+footer i:hover{
+    color: #6f4d94;
+}
+
+footer img{
+    height: 150px;
 }
 
 .col-md{
     text-align: center;
+    margin: auto 0;
 }
 
-main div{
+/* main div{
     padding: 20px;
-}
+} */
