@@ -47,3 +47,27 @@ main{
     color: white !important;
     border-radius: 10px;
 }
+
+#button li{
+    color:white;
+}
+
+.nav-item{
+    padding: 0 20px 0 20px;
+}
+
+nav{
+    padding: 5px;
+}
+footer i{
+    color: white;
+    font-size: 3em;
+}
+
+.col-md{
+    text-align: center;
+}
+
+main div{
+    padding: 20px;
+}
