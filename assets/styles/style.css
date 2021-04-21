@@ -4,9 +4,9 @@
 
 html{
     text-align: center;
-/*     background-color: var(--purple);
     
- */}
+    /* overflow: hidden; */
+/*     background-color: var(--purple);*/}
 
 nav img{
     height: 8vw;
@@ -54,11 +54,20 @@ main{
 
 .nav-item{
     padding: 0 20px 0 20px;
+    font-weight: bold;
 }
 
 nav{
-    padding: 5px;
+    padding: 0px 15px 0px 0px !important;
+    /* background-color: lightgrey; */
+    font-size: 1.2em;
+    
 }
+
+nav.navbar-navbar-expand-lg.navbar-light{
+    padding: 0 !important;
+}
+
 footer i{
     color: white;
     font-size: 3em;
@@ -76,6 +85,32 @@ footer img{
 .col-md{
     text-align: center;
     margin: auto 0;
+}
+
+.joinheader{
+    background-image: url('../images/cropcafe.jpg');
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.historyheader{
+    background-image: url('../images/clawbotcrop.jpg');
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.compheader{
+    background-image: url('../images/compcrop.jpg');
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gridd img{
+    max-width: 60%;
 }
 
 /* main div{
