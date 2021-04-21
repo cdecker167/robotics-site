@@ -9,7 +9,7 @@ html{
 /*     background-color: var(--purple);*/}
 
 nav img{
-    height: 8vw;
+    height: 150px;
 }
 
 /* nav{
@@ -41,6 +41,10 @@ main{
     text-align: center;
     margin: 0 auto;
 }
+
+/* main div{
+    margin: 20px;
+} */
 #button{
     background-color:#6f4d94;
     padding: 5px;
@@ -107,6 +111,13 @@ footer img{
     height: 75vh;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.indexheader{
+    background-image: url('../images/header.jpg');
+    height: 450px;
+    background-size: cover;
+    
 }
 
 .gridd img{

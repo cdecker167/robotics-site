@@ -22,7 +22,7 @@
     
 
       <nav class='navbar navbar-expand-lg navbar-light navbar-fixed-top'>
-        <a  href='index.html'class='navbar-brand'><img src='assets/originals/logo.png'>Pickerington North Robotics</a>
+        <a  href='index.html'class='navbar-brand'><img src='assets/originals/logo.png'>PHSN Robotics</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -31,10 +31,10 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto justify-content-center">
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Robots</a>
+                <a class="nav-link" href="robots.html">Our Robots</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Competitions</a>
+                <a class="nav-link" href="competitions.html">Competitions</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="history.html">History</a>
@@ -49,31 +49,33 @@
 
         <main>
 
-          <div class='historyheader row'>
-            <div class='col-md' style='display: flex; vertical-align: middle; justify-content: center; background-color: rgba(0,0,0,0.75); height: 100%; color: white; '>
+          <div class='historyheader row' style='margin-bottom: 35px;'>
+            <div class='col-md' style='display: flex; vertical-align: middle; justify-content: center; background-color: rgba(0,0,0,0.75); height: 100%; color: white;  '>
               <div style='margin: auto 0;'class='joint'>
                 <h1 style='font-size: 4rem; text-decoration: #6f4d94 underline;'>History</h1>
               </div>
             </div>
           </div>
 
-          <h1>History</h1>
+          <img src='assets/images/romecrop.jpg' style='max-width: 50%;'>
+
+          <h1>Club Members</h1>
 
           <div class='gridd'>
             <div class="row">
                 <div class="col"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p></div>
-                <div class="col"><img src="assets/images/2017.jpg"></div>
+                <div class="col"><img class='a2017' src="assets/images/2017.jpg"></div>
             </div>
 
             <div class="row">
-              <div class="col"><img src="assets/images/2018.jpg"></div>
+              <div class="col"><img class='a2018' src="assets/images/2018.jpg"></div>
               <div class="col"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p></div>
               
             </div>
 
             <div class="row">
               <div class="col"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p></div>
-              <div class="col"><img src="assets/images/2019.jpg"></div>
+              <div class="col"><img class='a2019' src="assets/images/2019.jpg"></div>
 
 
             </div>
@@ -104,6 +106,33 @@
           <p style='color:white; margin: 0 auto; font-size: 0.8em;'>&copy 2021 Site Design By Colin Decker</p>
         </div>
         </footer>
+
+        <script>
+          window.sr = ScrollReveal();
+
+          sr.reveal('.a2017', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+          });
+
+          sr.reveal('.a2018', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2 //percent of object on screen
+          });
+
+          sr.reveal('.a2019', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+            
+          });
+        </script>
+
     </div>
     </body>
 
