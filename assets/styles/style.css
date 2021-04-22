@@ -4,7 +4,8 @@
 
 html{
     text-align: center;
-    
+    scroll-behavior: smooth;
+    overflow-x: hidden;
     /* overflow: hidden; */
 /*     background-color: var(--purple);*/}
 
@@ -42,6 +43,11 @@ main{
     margin: 0 auto;
 }
 
+main p{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 /* main div{
     margin: 20px;
 } */
@@ -59,6 +65,7 @@ main{
 .nav-item{
     padding: 0 20px 0 20px;
     font-weight: bold;
+    
 }
 
 nav{
@@ -85,6 +92,8 @@ footer i:hover{
 footer img{
     height: 150px;
 }
+
+
 
 .col-md{
     text-align: center;
@@ -122,6 +131,10 @@ footer img{
 
 .gridd img{
     max-width: 60%;
+}
+
+iframe{
+    max-width: 90%;
 }
 
 /* main div{
