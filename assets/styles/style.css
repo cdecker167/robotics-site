@@ -79,6 +79,10 @@ nav.navbar-navbar-expand-lg.navbar-light{
     padding: 0 !important;
 }
 
+footer{
+    padding: 15px;
+}
+
 footer i{
     color: white;
     font-size: 3em;
